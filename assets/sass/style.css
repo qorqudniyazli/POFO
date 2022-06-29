@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Montserrat&family=Poppins&display=swap");
+.page {
+  position: relative;
+  z-index: 5;
+  background-color: #fff;
+}
+.page .hero {
+  height: 90vh;
+}
+.page .hero .text p {
+  font-size: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+.page .hero .text h6 {
+  color: #939393;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.page .menu ul li a {
+  color: #6f6f6f;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.page .menu ul li a:hover {
+  color: #232323;
+  border-bottom: 1px solid #232323;
+}
+
+.sub-page {
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+  background-color: #000;
+}
+.sub-page button {
+  background-color: #000;
+}
+.sub-page p span:hover {
+  color: #ff214f !important;
+  transition: 1s;
+}
+.sub-page ul li a {
+  font-size: 52px;
+  color: #fff;
+}
+.sub-page ul li a:hover {
+  color: #ff214f;
+  transition: 1s;
+}
+.sub-page #sosial {
+  padding: 0;
+}
+.sub-page #sosial li {
+  list-style: none;
+  color: #6f6f6f;
+}
+.sub-page #sosial li i:hover {
+  transition: 1s;
+  color: #0d6efd;
+}/*# sourceMappingURL=style.css.map */

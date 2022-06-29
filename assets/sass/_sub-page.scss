@@ -1,0 +1,45 @@
+.sub-page{
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    background-color:#000;
+    button{
+        background-color: #000;
+    }
+    p{
+        span{
+            &:hover{
+                color: #ff214f !important;
+                transition: 1s;
+            }
+        }
+    }
+    ul{
+        li{
+
+            a{
+                font-size:52px;
+                color: #fff;
+                &:hover{
+                    color: #ff214f;
+                    transition: 1s;
+                }
+            }
+        }
+    }
+
+    #sosial{
+        padding: 0;
+        li{
+            list-style: none;
+            color: #6f6f6f;
+            i{
+                &:hover{
+                    transition:1s;
+                    color: #0d6efd;
+                }
+            }
+            
+        }
+    }
+}
